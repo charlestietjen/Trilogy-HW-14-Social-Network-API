@@ -18,6 +18,9 @@ The API allows for:
 
 ![App Screenshot](./img/project-ss.png)
 
+## Video
+
+[![Youtube Link](./img/youtube-icon.png?raw=true)](https://youtu.be/5-DyZC5wlUo)
 
 ## Installation
 
