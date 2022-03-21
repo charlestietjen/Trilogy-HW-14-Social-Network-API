@@ -20,7 +20,7 @@ The API allows for:
 
 ## Video
 
-[![Youtube Link](https://img.youtube.com/vi/5-DyZC5wlUo/default.jpg)](https://youtu.be/5-DyZC5wlUo)
+[![Youtube Link](https://img.youtube.com/vi/5-DyZC5wlUo/hqdefault.jpg)](https://youtu.be/5-DyZC5wlUo)
 
 ## Installation
 
