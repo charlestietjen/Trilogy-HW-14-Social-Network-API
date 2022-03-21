@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const { isEmailValid } = require('../utils/isEmailValid');
 
 const UserSchema = new Schema(
     {
@@ -13,7 +14,12 @@ const UserSchema = new Schema(
             required: true,
             unique: true,
             trim: true,
-            // validate: // add a regex test
+            validate: {
+                validator: function(v) {
+                    return isEmailValid(v);
+                },
+                message: error => `${error.value} is not a valid email address`
+            }
         },
         thoughts: [{
             type: Schema.Types.ObjectId,
